@@ -252,5 +252,6 @@ extension APNSwiftConnection {
     public enum PushType: String {
         case alert
         case background
+        case mdm
     }
 }
